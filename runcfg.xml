@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Run>
+<PrjName>FX_Compare1</PrjName>
+
+
+<RemoteIP >10.103.2.163</RemoteIP>
+<RemoteIP >10.103.2.181</RemoteIP>
+<RemoteIP >10.103.2.182</RemoteIP>
+<RemoteIP >10.103.2.183</RemoteIP>
+<RemoteIP >10.103.2.185</RemoteIP>
+<RemoteIP >10.103.2.186</RemoteIP>
+<RemoteIP >10.103.2.187</RemoteIP>
+<RemoteIP >10.103.2.188</RemoteIP>
+<RemoteIP >10.103.2.189</RemoteIP>
+
+
+<PrjPackage>D:/FoxitCore_CI/workspace/ATDSC_FXCore_Test_Windows/test1</PrjPackage>
+<HttpPort>9999</HttpPort>
+
+
+<ScriptRun>DCSRunner.py</ScriptRun>
+<ScriptMonitor>runstate.py</ScriptMonitor>
+<ScriptCleaner>DCSCleaner.py</ScriptCleaner>
+
+<ExternMonitorP>calc.exe</ExternMonitorP>
+
+<Report>AutoTest_ERROR.log</Report>
+<Report>AutoTest_NORUN.log</Report>
+<Report>AutoTest_SUCCESS.log</Report>
+<Report>Report</Report>
+<ReportFlag>_time.txt</ReportFlag>
+<ReportFlag>TestReport_</ReportFlag>
+
+<!--  if set automatic ip will useless -->
+<!-- <automatic></automatic> -->
+<RecieveSpace>D:/FoxitCore_CI/workspace/ATDSC_FXCore_Test_Windows/RecieveSpace</RecieveSpace>
+
+<!--  Task will run on all machines if set uniform mode -->
+<!-- <TaskMode>uniform<TaskMode> -->
+<Task>"S:/=Path=" "S:/" "0-1000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "1000-2000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "2000-3000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "3000-4000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "4000-5000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "5000-6000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "6000-7000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "7000-8000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "8000-9000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "9000-10000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "10000-11000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "11000-12000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "12000-13000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "13000-14000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+<Task>"S:/=Path=" "S:/" "14000-15000" "testfiles0.txt" "10017" "10018" "RenderCompare.DibRenderCompare,RenderCompare.ProgressDibRender,FileCompare.pdfCompare"</Task>
+
+</Run>

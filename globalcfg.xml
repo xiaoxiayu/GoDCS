@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Global>
+<RemoteIP >10.103.2.163</RemoteIP>
+<RemoteIP >10.103.2.181</RemoteIP>
+<RemoteIP >10.103.2.182</RemoteIP>
+<RemoteIP >10.103.2.183</RemoteIP>
+<RemoteIP >10.103.2.185</RemoteIP>
+<RemoteIP >10.103.2.186</RemoteIP>
+<RemoteIP >10.103.2.187</RemoteIP>
+<RemoteIP >10.103.2.188</RemoteIP>
+<RemoteIP >10.103.2.189</RemoteIP>
+
+<TransportPort>9091</TransportPort>
+<RunnerPort>9092</RunnerPort>
+<TaskMonitorPort>9093</TaskMonitorPort>
+<MonitorPort>9094</MonitorPort>
+<Workspace>myworkspace</Workspace>
+
+</Global>
