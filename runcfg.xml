@@ -14,7 +14,7 @@
 <RemoteIP >10.103.2.189</RemoteIP>
 
 
-<PrjPackage>D:/FoxitCore_CI/workspace/ATDSC_FXCore_Test_Windows/test1</PrjPackage>
+<PrjPackage>D:/xxCore_CI/workspace/ATDSC_FXCore_Test_Windows/test1</PrjPackage>
 <HttpPort>9999</HttpPort>
 
 
@@ -33,7 +33,7 @@
 
 <!--  if set automatic ip will useless -->
 <!-- <automatic></automatic> -->
-<RecieveSpace>D:/FoxitCore_CI/workspace/ATDSC_FXCore_Test_Windows/RecieveSpace</RecieveSpace>
+<RecieveSpace>D:/xxCore_CI/workspace/ATDSC_FXCore_Test_Windows/RecieveSpace</RecieveSpace>
 
 <!--  Task will run on all machines if set uniform mode -->
 <!-- <TaskMode>uniform<TaskMode> -->
